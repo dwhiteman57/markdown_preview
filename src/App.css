@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: linear-gradient(0, rgba(228, 229, 198, 0.5) 0%, rgba(228, 229, 198, 0.5) 6%,rgba(218, 219, 206, 0.5) 6%, rgba(218, 219, 206, 0.5) 19%,rgba(208, 209, 214, 0.5) 19%, rgba(208, 209, 214, 0.5) 34%,rgba(198, 199, 222, 0.5) 34%, rgba(198, 199, 222, 0.5) 42%,rgba(187, 188, 231, 0.5) 42%, rgba(187, 188, 231, 0.5) 45%,rgba(177, 178, 239, 0.5) 45%, rgba(177, 178, 239, 0.5) 70%,rgba(167, 168, 247, 0.5) 70%, rgba(167, 168, 247, 0.5) 99%,rgba(157, 158, 255, 0.5) 99%, rgba(157, 158, 255, 0.5) 100%),linear-gradient(90deg, rgb(215, 10, 26) 0%, rgb(215, 10, 26) 7%,rgb(218, 36, 28) 7%, rgb(218, 36, 28) 17%,rgb(220, 62, 31) 17%, rgb(220, 62, 31) 20%,rgb(223, 88, 33) 20%, rgb(223, 88, 33) 41%,rgb(225, 114, 36) 41%, rgb(225, 114, 36) 42%,rgb(228, 140, 38) 42%, rgb(228, 140, 38) 53%,rgb(230, 166, 41) 53%, rgb(230, 166, 41) 65%,rgb(233, 192, 43) 65%, rgb(233, 192, 43) 100%);
+  height: 250px;
+  padding: 20px;
+  color: rgb(22, 21, 21);
+  word-wrap: break-word;
+}
+
+.App-title {
+  font-size: 4em;
+}
+
+.Sub-heading {
+  text-align: center;
+  font-size: 1em;
+  margin-top: -20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  color: black;
+}
+
+.body {
+  height: 150px;
+  padding: 10px, 20px;
+  margin-top: 75px;
+}
+
+.box {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  margin: 2em;
+  min-height: 75vh;
+  padding-left: 1vw;
+  text-align: left;
+  width: 42%;
+  word-wrap: break-word;
+}
+
+.left {
+  background-image: rgba(253, 253, 253, 0.938);
+  float: left;
+  color: black;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+textarea {
+  border: none;
+  resize: none;
+}
+
+.right {
+  float: right;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #cdcdce 100%);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 50px;
+  height: 5px;
+  width: 100%;
+  text-align: center;
+}
